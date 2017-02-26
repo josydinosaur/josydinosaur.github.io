@@ -1,0 +1,97 @@
+/* This is a CSS comment */
+
+body {
+	background: rgb(190,150,150);
+	background-image: url(../images/bground3.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.explain {font-size: 30px;
+		color: navy;
+}
+
+.main {
+	background: rgba(255,255,255,0.7);
+	width: 700px;
+	margin: 0 auto;
+	padding: 70px;
+	border-radius: 40px;
+	/*box-shadow: 0 0 50px 5px antiquewhite;*/
+}
+
+h1 {
+	font-family: 'Cabin Sketch', cursive;
+	text-shadow: 5px 4px 22px lightblue;
+	text-align: center;
+	font-size: 100px;
+	letter-spacing: 10px;
+	color: grey;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+h2 {
+	font-family: 'Homemade Apple', cursive;
+	text-align: center;
+	font-weight: bold;
+	text-transform: lowercase;
+	font-size: 20px;
+	margin: 10px;
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+	margin-bottom:60px;
+
+}
+
+/* any element (wildcard)*/
+
+img {
+	/* centering the image */
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	background: white;
+	border: 10px dotted rgb(102,240,200);
+	border-radius: 50%;
+	box-shadow: 0 0 30px 5px rgb(102,187,200);
+}
+
+img:hover {
+	/*rotating the image*/
+	transition: transform 1s;
+	transform: rotateZ(720deg) scale(1.3);
+}
+
+
+h3 {
+	margin-bottom: 0px;
+	cursor: pointer;
+}
+
+h3 + * {display: none;
+
+
+}
+
+
+p,
+ol,
+ul {line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	font-weight:bold;
+	text-decoration: none;
+	color: navy;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
